@@ -13,6 +13,7 @@
 {% endcomment %}
 
 {%- liquid
+  assign card_collection.featured_image = featured_image | default: card_collection.featured_image
   assign ratio = 1
   if card_collection.featured_image and media_aspect_ratio == 'portrait'
     assign ratio = 0.8
