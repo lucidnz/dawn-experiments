@@ -64,7 +64,6 @@
             {{ block.shopify_attributes }}
           >
             {% render 'card-collection',
-              featured_image: block.settings.featured_image,
               card_collection: block.settings.collection,
               media_aspect_ratio: section.settings.image_ratio,
               columns: columns
@@ -276,11 +275,6 @@
           "type": "collection",
           "id": "collection",
           "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
-        },
-        {
-          "type": "image_picker",
-          "id": "featured_image",
-          "label": "Featured Image"
         }
       ]
     }
