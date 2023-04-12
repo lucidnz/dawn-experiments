@@ -217,21 +217,12 @@
         "template--16669312319725__ea2f7c73-7ee6-404f-8a8a-fdde62400b3e-1681259795d4c9533a-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "eva-fehren",
-            "featured_image": "{{ block.settings.collection.metafields.custom.designer.value.cover_image.value }}"
-          }
-        },
-        "template--16669312319725__ea2f7c73-7ee6-404f-8a8a-fdde62400b3e-1681259795d4c9533a-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "anitako",
-            "featured_image": "{{ block.settings.collection.metafields.custom.designer.value.cover_image.value }}"
+            "collection": "eva-fehren"
           }
         }
       },
       "block_order": [
-        "template--16669312319725__ea2f7c73-7ee6-404f-8a8a-fdde62400b3e-1681259795d4c9533a-0",
-        "template--16669312319725__ea2f7c73-7ee6-404f-8a8a-fdde62400b3e-1681259795d4c9533a-1"
+        "template--16669312319725__ea2f7c73-7ee6-404f-8a8a-fdde62400b3e-1681259795d4c9533a-0"
       ],
       "settings": {
         "title": "Collections",
