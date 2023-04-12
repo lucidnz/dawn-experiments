@@ -64,6 +64,7 @@
             {{ block.shopify_attributes }}
           >
             {% render 'card-collection',
+              featured_image: block.settings.featured_image,
               card_collection: block.settings.collection,
               media_aspect_ratio: section.settings.image_ratio,
               columns: columns
