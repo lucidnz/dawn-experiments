@@ -218,20 +218,21 @@
           "type": "featured_collection",
           "settings": {
             "collection": "eva-fehren",
-            "featured_image": "shopify:\/\/shop_images\/BGEvaFehren.jpg"
+            "featured_image": "{{ block.settings.collection.metafields.custom.designer.value.cover_image.value }}"
           }
         },
         "template--16669312319725__ea2f7c73-7ee6-404f-8a8a-fdde62400b3e-1681259795d4c9533a-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "all-fine-contemporary",
-            "featured_image": "shopify:\/\/shop_images\/NewArrivals_d376cf0b-39bb-4ea3-864e-2d65944dbdcc.png"
+            "collection": "anitako",
+            "featured_image": "{{ block.settings.collection.metafields.custom.designer.value.cover_image.value }}"
           }
         },
         "template--16669312319725__ea2f7c73-7ee6-404f-8a8a-fdde62400b3e-1681259795d4c9533a-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "hoorsenbuhs",
+            "featured_image": "{{ block.settings.collection.metafields.custom.designer.value.profile_image.value }}"
           }
         }
       },
