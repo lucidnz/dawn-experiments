@@ -232,7 +232,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "hoorsenbuhs",
-            "featured_image": "{{ block.settings.collection.metafields.custom.designer.value.profile_image.value }}"
+            "featured_image": "{{ block.settings.collection.metafields.custom.designer.value.cover_image.value }}"
           }
         }
       },
