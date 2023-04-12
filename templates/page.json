@@ -12,21 +12,28 @@
       "blocks": {
         "template--16669312450797__ca4f470e-1858-406a-b713-f40780788115-1681261815e8fd44e4-0": {
           "type": "featured_collection",
-          "repeater": "{{ page.metafields.custom.designers.value }}",
           "settings": {
-            "collection": "{{ block.repeater.collection.value }}",
-            "featured_image": "{{ block.repeater.profile_image.value }}"
+            "collection": "eva-fehren",
+            "featured_image": "{{ block.settings.collection.metafields.custom.designer.value.cover_image.value }}"
+          }
+        },
+        "03222c1f-606d-4cf8-a1f7-0f9a67097c9b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "anitako",
+            "featured_image": "{{ block.settings.collection.metafields.custom.designer.value.cover_image.value }}"
           }
         }
       },
       "block_order": [
-        "template--16669312450797__ca4f470e-1858-406a-b713-f40780788115-1681261815e8fd44e4-0"
+        "template--16669312450797__ca4f470e-1858-406a-b713-f40780788115-1681261815e8fd44e4-0",
+        "03222c1f-606d-4cf8-a1f7-0f9a67097c9b"
       ],
       "settings": {
         "title": "Collections",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
